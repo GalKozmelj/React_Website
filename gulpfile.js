@@ -14,6 +14,7 @@ var SCSS_DEST = "./src/Assets/css";
 
 //compile SCSS
 gulp.task("compile_scss", function() {
-  gulp.src(SCSS_SRC).pipe(sass().on("error", sass.logError));
-  .pipe
+  gulp.src(SCSS_SRC)
+  .pipe(sass().on("error", sass.logError));
+  .pipe()
 });
