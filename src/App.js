@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import 'Assets/scss/default.scss';
 
 class App extends Component {
   render() {
